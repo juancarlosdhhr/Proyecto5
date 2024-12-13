@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cta-button {
+  background-color: #a2a2a2;
+  color: #1f1f1f;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #646565;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.header-nav .logo {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-actions .btn {
+  background-color: #444;
+  color: #fff;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-actions .btn:hover {
+  background-color: #666;
+}
+
+
+
+/* Novedades */
+.novedades {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.novedades h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.novedades-grid {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.novedad-item {
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.novedad-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Slider */
+.slider {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.slider h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.slider-container {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+.slider-item {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.slider-item img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* Gallery */
+.gallery {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.gallery-carousel {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+.gallery-item video,
+.gallery-item img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* Kings League */
+.kings-league {
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.kings-league h2 {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.footer-links a {
+  color: #fff;
+  font-size: 0.9rem;
+}
